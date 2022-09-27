@@ -1,0 +1,5 @@
+#### check last abuseipdb
+17 8 * * * cd /home/root/portscanner/abuseipdb && sh /home/root/portscanner/abuseipdb/update-abuseipdb.sh
+
+47 8 * * * cd /home/root/portscanner/abuseipdb && sh /home/root/portscanner/abuseipdb/abuseipdb_remove_de_IPs_prefix.sh
+

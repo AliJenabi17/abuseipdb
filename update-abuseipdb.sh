@@ -7,7 +7,8 @@ MY_PATH=$(cd "$MY_PATH" && pwd )
 
 ######## Address
 addfeed='/var/www/feeds'
-addfeedlog='/home/root/portscanner/abuseipdb/log-10000-pro-day'
+addfeedlog="$MY_PATH/log-10000-pro-day"
+
 mkdir "$MY_PATH/log-10000-pro-day"
 
 ######## sort ip address
